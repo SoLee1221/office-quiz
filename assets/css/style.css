@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+}
+
+#progress {
+    width: 100%;
+    background-color: grey;
+  }
+  
+#bar {
+    width: 0%;
+    height: 30px;
+    background-color: green;
+  }
+
+.title {
+  color: red;
+  text-align: center;
+}
