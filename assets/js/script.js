@@ -73,9 +73,18 @@ function handleAnswer(isCorrect) {
 }
 
 function startTimer(seconds) {
-    document.getElementById("timer").innerHTML = seconds;
+    document.getElementById('timer').innerHTML = seconds;
     counter = seconds;
     timers = setInterval(timerFunction, 1000);
+}
+
+function updateLeftQuestionsBar(answerQuestionCount) {
+    let width = (answerQuestionCount / question.length) * 100;
+    document.getElementById('bar').style.width = width + "%";
+}
+
+function displayAnswer(answer){
+    document.getElementById('answer').innerText = answer;
 }
 
 function timerFunction() {
@@ -91,8 +100,8 @@ function timerFunction() {
 }
 
 document.addEventListener("DOMContentLoaded", function(){
-    document.getElementById("btn").addEventListener("click", submitAnswer);
-    document.getElementById("answer-box").addEventListener("keydown", function(event){
+    document.getElementById('btn').addEventListener("click", submitAnswer);
+    document.getElementById('answer-box').addEventListener("keydown", function(event){
         if(event.key === "Enter")
         submitAnswer();
     })
