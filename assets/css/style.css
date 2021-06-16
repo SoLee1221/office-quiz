@@ -27,3 +27,15 @@ body {
   color: red;
   font-size: large;
 }
+
+.scores {
+  color: green;
+  font-size: large;
+  font-weight: bolder ;
+}
+
+.scoresinc {
+  color: red;
+  font-size: large;
+  font-weight: bolder;
+}
