@@ -90,5 +90,13 @@ function timerFunction() {
     } 
 }
 
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("btn").addEventListener("click", submitAnswer);
+    document.getElementById("answer-box").addEventListener("keydown", function(event){
+        if(event.key === "Enter")
+        submitAnswer();
+    })
+});
+
 startTimer(3);
 displayQuestion(questions[currentQuestion]);

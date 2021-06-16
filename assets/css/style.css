@@ -17,3 +17,13 @@ body {
   color: red;
   text-align: center;
 }
+
+#score {
+  color: green;
+  font-size: large;
+}
+
+#incorrect {
+  color: red;
+  font-size: large;
+}
