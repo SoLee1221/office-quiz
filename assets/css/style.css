@@ -1,5 +1,9 @@
-body {
-    background-color: white;
+.main-back {
+  background-color: black;
+}
+
+.quiz-page {
+  background-color: white;
 }
 
 #progress {
@@ -18,24 +22,30 @@ body {
   text-align: center;
 }
 
-#score {
-  color: green;
-  font-size: large;
-}
-
-#incorrect {
-  color: red;
-  font-size: large;
-}
-
 .scores {
   color: green;
   font-size: large;
   font-weight: bolder ;
+  text-align: center;
 }
 
 .scoresinc {
   color: red;
   font-size: large;
   font-weight: bolder;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.main-img {
+  text-align: center;
+}
+
+#timer {
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
 }
