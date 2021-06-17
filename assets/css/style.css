@@ -49,3 +49,22 @@
   font-weight: bolder;
   text-align: center;
 }
+
+.question-area {
+  text-align: center;
+  font-size: x-large;
+}
+
+.answer-message {
+  text-align: center;
+  font-size: x-large;
+}
+
+.answer-b {
+  text-align: center;
+  font-size: x-large;
+}
+
+.a-box {
+  text-align: center;
+}
