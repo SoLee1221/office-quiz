@@ -5,15 +5,15 @@ let currentQuestion = 0;
 let questions = [
     {
         question: "Who sits opposite Michael Scott's office?",
-        answer: "jim halpert"
+        answer: "Jim Halpert"
     },
     {
         question: "Who does Dwight like at the start of the series?",
-        answer: "katy moore"
+        answer: "Katy Moore"
     },
     {
         question: "Who does Pam really have feelings for at the start of the series in office",
-        answer: "jim halpert"
+        answer: "Jim Halpert"
     }
 ];
 
@@ -30,9 +30,9 @@ function submitAnswer() {
     if (currentQuestion == question)
     return;
 
-    let userAnswer = document.getElementById('answer-box').value.toLowerCase();
+    let userAnswer = document.getElementById('answer-box').value.toLowerCase;
 
-    handleAnswer(userAnswer == questions[currentQuestion].answer || true);
+    handleAnswer(userAnswer == questions[currentQuestion].answer.toLowerCase);
 }
 
 function handleAnswer(isCorrect) {
@@ -107,5 +107,5 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 });
 
-startTimer(3);
+startTimer(5);
 displayQuestion(questions[currentQuestion]);
