@@ -24,14 +24,14 @@
 
 .scores {
   color: green;
-  font-size: large;
+  font-size: 2em;
   font-weight: bolder ;
   text-align: center;
 }
 
 .scoresinc {
   color: red;
-  font-size: large;
+  font-size: 2em;
   font-weight: bolder;
   text-align: center;
 }
@@ -45,19 +45,20 @@
 }
 
 #timer {
-  font-size: x-large;
+  font-size: 1.5em;
   font-weight: bolder;
   text-align: center;
+  color: red;
 }
 
 .question-area {
   text-align: center;
-  font-size: x-large;
+  font-size: 3.5em;
 }
 
 .answer-message {
   text-align: center;
-  font-size: x-large;
+  font-size: 3em;
 }
 
 .answer-b {

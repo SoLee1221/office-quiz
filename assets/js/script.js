@@ -12,7 +12,7 @@ let questions = [
         answer: "Katy Moore"
     },
     {
-        question: "Who does Pam really have feelings for at the start of the series in office",
+        question: "Who does Pam really have feelings for at the start of the series in office?",
         answer: "Jim Halpert"
     }
 ];
