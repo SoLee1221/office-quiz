@@ -36,6 +36,8 @@ function submitAnswer() {
     let userAnswer = document.getElementById('answer-box').value.toLowerCase();
 
     handleAnswer(userAnswer == questions[currentQuestion].answer.toLowerCase());
+
+    document.getElementById('answer-box').value = "";
 }
 
 function handleAnswer(isCorrect) {
