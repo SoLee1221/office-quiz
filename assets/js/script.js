@@ -65,7 +65,7 @@ function handleAnswer(isCorrect) {
     }
 
     // reset timer
-    startTimer(3);
+    startTimer(5);
     
     // 
     displayQuestion(questions[++currentQuestion]);

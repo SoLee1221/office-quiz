@@ -73,3 +73,25 @@
 #answer {
   text-align: center;
 }
+
+img {
+  background-repeat: no-repeat;
+  background-position: fixed;
+  position: relative;
+}
+
+.link {
+  text-align: right;
+  font-size: 2em;
+  font-weight: bolder;
+  color: orange;
+}
+
+.info {
+  font-size: 1.5em;
+  color: blue;
+}
+
+.rule {
+  color: crimson;
+}
