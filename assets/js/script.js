@@ -5,15 +5,18 @@ let currentQuestion = 0;
 let questions = [
     {
         question: "Who sits opposite Michael Scott's office?",
-        answer: "Jim Halpert"
+        answer: "Jim Halpert",
+        image: "assets/images/jim.jpg"
     },
     {
         question: "Who does Dwight like at the start of the series?",
-        answer: "Katy Moore"
+        answer: "Katy Moore",
+        image: "assets/images/katy.jpg"
     },
     {
         question: "Who does Pam really have feelings for at the start of the series in office?",
-        answer: "Jim Halpert"
+        answer: "Jim Halpert",
+        image: "assets/images/jim.jpg"
     }
 ];
 
@@ -30,9 +33,9 @@ function submitAnswer() {
     if (currentQuestion == question)
     return;
 
-    let userAnswer = document.getElementById('answer-box').value.toLowerCase;
+    let userAnswer = document.getElementById('answer-box').value.toLowerCase();
 
-    handleAnswer(userAnswer == questions[currentQuestion].answer.toLowerCase);
+    handleAnswer(userAnswer == questions[currentQuestion].answer.toLowerCase());
 }
 
 function handleAnswer(isCorrect) {
@@ -45,7 +48,10 @@ function handleAnswer(isCorrect) {
         incorrectAnswers++;
         displayAnswer(q.answer);
     }
-
+    if (q.image)
+    document.getElementById('a-image').innerHTML = "<img src=\"" + q.image + "\"/>";
+      else
+    document.getElementById('a-image').innerHTML = "";
     updateScoreText();
 
     // stop timer
@@ -65,7 +71,7 @@ function handleAnswer(isCorrect) {
     }
 
     // reset timer
-    startTimer(5);
+    startTimer(10000000);
     
     // 
     displayQuestion(questions[++currentQuestion]);
@@ -79,8 +85,8 @@ function startTimer(seconds) {
 }
 
 function updateLeftQuestionsBar(answerQuestionCount) {
-    let width = (answerQuestionCount / question.length) * 100;
-    document.getElementById('bar').style.width = width + "%";
+    let width = (answerQuestionCount / questions.length) * 100;
+    document.getElementById("bar").style.width = width + "%";
 }
 
 function displayAnswer(answer){
