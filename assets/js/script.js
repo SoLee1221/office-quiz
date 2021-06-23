@@ -17,6 +17,11 @@ let questions = [
         question: "Who does Pam really have feelings for at the start of the series in office?",
         answer: "Jim Halpert",
         image: "assets/images/jim.jpg"
+    },
+    {
+        question: "Who became second acting regional in Dunder Mifflin?",
+        answer: "Dwight Schrute",
+        image: "assets/images/dwigth.jpg"
     }
 ];
 
@@ -117,3 +122,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
 startTimer(5);
 displayQuestion(questions[currentQuestion]);
+
+/*
+HighScore
+ */
+
+let highScoreList = document.getElementById('highScoresList')
+let highScores = JSON.parse(localStorage.getItem('highScores')) || []
+
+highScoreList.innerHTML = 
+highScores.map(score => {
+    return '<li class="high-score">${score.name} - ${score.score}</li>'
+})
