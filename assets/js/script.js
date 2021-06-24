@@ -74,7 +74,8 @@ function handleAnswer(isCorrect) {
 
         // do something after quiz
 
-        return;
+        return  ;
+
     }
 
     // reset timer
@@ -123,14 +124,4 @@ document.addEventListener("DOMContentLoaded", function(){
 startTimer(5);
 displayQuestion(questions[currentQuestion]);
 
-/*
-HighScore
- */
 
-let highScoreList = document.getElementById('highScoresList')
-let highScores = JSON.parse(localStorage.getItem('highScores')) || []
-
-highScoreList.innerHTML = 
-highScores.map(score => {
-    return '<li class="high-score">${score.name} - ${score.score}</li>'
-})
