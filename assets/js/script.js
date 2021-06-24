@@ -1,6 +1,9 @@
 let correctAnswers = 0;
 let incorrectAnswers = 0;
 let currentQuestion = 0;
+let resultBox = document.getElementsByClassName("result-box");
+let quizBox = document.getElementsByClassName("quiz-box");
+let homeBox = document.getElementsByClassName("home-box");
 
 let questions = [
     {
@@ -113,7 +116,7 @@ function timerFunction() {
 }
 
 function quizOver(){
-    quizBox.classList.add("ideh");
+    question-area.classList.add("hide");
     resultBox.classList.remove("hide");
     quizResult;
 }
@@ -123,6 +126,18 @@ function quizResult(){
     resultsBox.getElementByClassName("right").innerHTML = correctAnswers;
     resultsBox.getElementByClassName("wrong").innerHTML = incorrectAnswers;
     resultsBox.getElementByClassName("percentage").innerHTML = correctAnswers / questions.length * 100;
+}
+
+function resetQuiz(){
+    currentQuestion;
+    correctAnswers;
+    incorrectAnswers;
+}
+
+function tryAgainQuiz(){
+    resultBox.classList.add("hide");
+    question-area.classList.remove("hide");
+    resetQuiz();
 }
 
 document.addEventListener("DOMContentLoaded", function(){
