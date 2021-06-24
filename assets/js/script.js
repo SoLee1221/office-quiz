@@ -1,9 +1,8 @@
 let correctAnswers = 0;
 let incorrectAnswers = 0;
 let currentQuestion = 0;
-let resultBox = document.getElementsByClassName("result-box");
-let quizBox = document.getElementsByClassName("quiz-box");
-let homeBox = document.getElementsByClassName("home-box");
+let resultBox = document.getElementsByClassName("results-box")[0];
+let questionArea = document.getElementById('questionArea');
 
 let questions = [
     {
@@ -29,7 +28,7 @@ let questions = [
 ];
 
 function displayQuestion(question){
-    document.getElementById('question').innerText = question.question;
+    document.getElementsById("question").innerText = question.question;
 }
 
 function updateScoreText() {
@@ -76,7 +75,7 @@ function handleAnswer(isCorrect) {
         currentQuestion++;
 
         // do something after quiz
-        quizResult();
+        quizOver();
         return;
     }
 
@@ -116,27 +115,27 @@ function timerFunction() {
 }
 
 function quizOver(){
-    question-area.classList.add("hide");
+    questionArea.classList.add("hide");
     resultBox.classList.remove("hide");
-    quizResult;
+    quizResult();
 }
 
 function quizResult(){
-    resultsBox.getElementByClassName("total-question").innerHTML = questions.length;
-    resultsBox.getElementByClassName("right").innerHTML = correctAnswers;
-    resultsBox.getElementByClassName("wrong").innerHTML = incorrectAnswers;
-    resultsBox.getElementByClassName("percentage").innerHTML = correctAnswers / questions.length * 100;
+    document.getElementsByClassName("total-question")[0].innerHTML = questions.length;
+    document.getElementsByClassName("right")[0].innerHTML = correctAnswers;
+    document.getElementsByClassName("wrong")[0].innerHTML = incorrectAnswers;
+    document.getElementsByClassName("percentage")[0].innerHTML = correctAnswers / questions.length * 100;
 }
 
 function resetQuiz(){
-    currentQuestion;
-    correctAnswers;
-    incorrectAnswers;
+    currentQuestion = 0;
+    correctAnswers = 0;
+    incorrectAnswers = 0;
 }
 
 function tryAgainQuiz(){
     resultBox.classList.add("hide");
-    question-area.classList.remove("hide");
+    questionArea.classList.remove("hide");
     resetQuiz();
 }
 
