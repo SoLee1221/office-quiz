@@ -73,9 +73,8 @@ function handleAnswer(isCorrect) {
         currentQuestion++;
 
         // do something after quiz
-
-        return  ;
-
+        quizResult();
+        return;
     }
 
     // reset timer
@@ -111,6 +110,19 @@ function timerFunction() {
     } else { 
         document.getElementById("timer").innerHTML = counter;
     } 
+}
+
+function quizOver(){
+    quizBox.classList.add("ideh");
+    resultBox.classList.remove("hide");
+    quizResult;
+}
+
+function quizResult(){
+    resultsBox.getElementByClassName("total-question").innerHTML = questions.length;
+    resultsBox.getElementByClassName("right").innerHTML = correctAnswers;
+    resultsBox.getElementByClassName("wrong").innerHTML = incorrectAnswers;
+    resultsBox.getElementByClassName("percentage").innerHTML = correctAnswers / questions.length * 100;
 }
 
 document.addEventListener("DOMContentLoaded", function(){
