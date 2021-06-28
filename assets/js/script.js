@@ -28,7 +28,7 @@ let questions = [
 ];
 
 function displayQuestion(question){
-    document.getElementsById("question").innerText = question.question;
+    document.getElementById("question").innerText = question.question;
 }
 
 function updateScoreText() {
@@ -80,7 +80,7 @@ function handleAnswer(isCorrect) {
     }
 
     // reset timer
-    startTimer(10000000);
+    startTimer(15);
     
     // 
     displayQuestion(questions[++currentQuestion]);
@@ -124,19 +124,27 @@ function quizResult(){
     document.getElementsByClassName("total-question")[0].innerHTML = questions.length;
     document.getElementsByClassName("right")[0].innerHTML = correctAnswers;
     document.getElementsByClassName("wrong")[0].innerHTML = incorrectAnswers;
-    document.getElementsByClassName("percentage")[0].innerHTML = correctAnswers / questions.length * 100;
+    let percentage = (correctAnswers/questions.length)*100;
+    document.getElementsByClassName("percentage")[0].innerHTML = percentage.toFixed(0) + "%";
 }
 
 function resetQuiz(){
     currentQuestion = 0;
     correctAnswers = 0;
     incorrectAnswers = 0;
+    updateLeftQuestionsBar(0);
+    updateScoreText(0);
+    startTimer(5);
 }
 
 function tryAgainQuiz(){
     resultBox.classList.add("hide");
     questionArea.classList.remove("hide");
     resetQuiz();
+}
+
+function goToHome(){
+    document.location.href="/index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -147,7 +155,7 @@ document.addEventListener("DOMContentLoaded", function(){
     })
 });
 
-startTimer(5);
+startTimer(15);
 displayQuestion(questions[currentQuestion]);
 
 

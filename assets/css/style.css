@@ -18,7 +18,7 @@
   }
 
 .title {
-  color: red;
+  color: rgb(255, 51, 0);
   text-align: center;
   font-weight: bolder;
 }
@@ -55,17 +55,19 @@
   font-size: 1.5em;
   font-weight: bolder;
   text-align: center;
-  color: blue;
+  color: rgb(0, 204, 255);
 }
 
 .question-area {
   text-align: center;
   font-size: 3.5em;
+  color: white;
 }
 
 .answer-message {
   text-align: center;
   font-size: 3em;
+  color: white;
 }
 
 .answer-b {
@@ -79,6 +81,7 @@
 
 #answer {
   text-align: center;
+  color: rgba(216, 158, 0, 0.849);
 }
 
 .link {
@@ -143,17 +146,17 @@
 }
 
 .results-box table td{
-  border: 1px solid black;
+  border: 1px solid white;
   padding: 8px 15px;
-  font-weight: 500;
-  color: green;
+  font-weight: bolder;
+  color: rgb(197, 162, 6);
   width: 50%;
   text-align: left;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .results-box .btn{
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 
