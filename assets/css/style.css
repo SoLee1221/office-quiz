@@ -20,6 +20,7 @@
 .title {
   color: red;
   text-align: center;
+  font-weight: bolder;
 }
 
 .scores {
@@ -36,12 +37,18 @@
   text-align: center;
 }
 
-.title {
-  text-align: center;
+.main-img {
+  background-image: url(/assets/images/homepage.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
 }
 
-.main-img {
-  text-align: center;
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 #timer {
@@ -83,11 +90,13 @@
 
 .info {
   font-size: 1.5em;
-  color: blue;
+  color: grey;
+  text-align: center;
 }
 
 .rule {
-  color: crimson;
+  color: white;
+  text-align: center;
 }
 
 #a-image {
