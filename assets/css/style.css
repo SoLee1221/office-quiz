@@ -139,8 +139,12 @@
 }
 
 #a-image img {
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 30%;
+}
+
+#btn {
+  margin-top: 25px;
 }
 
 /***results***/

@@ -32,8 +32,8 @@ let questions = [
     },
     {
         question: "Who becomes the second to last Dunder Mifflin branch manager before the series ends?",
-        answer: "Andrew Bernard",
-        image: "assets/images/andrew.jpg"
+        answer: "Andy Bernard",
+        image: "assets/images/andy.jpg"
     },
     {
         question: "Who does Pam end up marrying?",
@@ -44,6 +44,26 @@ let questions = [
         question: "Who accidentally lets off a firearm in the office?",
         answer: "Dwight Schrute",
         image: "assets/images/dwigth.jpg"
+    },
+    {
+        question: "Who becomes minority executive from the training programme that was offered?",
+        answer: "Kelly Kapoor",
+        image: "assets/images/kelly.jpg"
+    },
+    {
+        question: "Who was the manager of the warehouse?",
+        answer: "Darryl Philbin",
+        image: "assets/images/dar.jpg"
+    },
+    {
+        question: "Who does Michael Scott dislike the most within the office US first few seasons?",
+        answer: "Toby Flenderson",
+        image: "assets/images/toby.jpg"
+    },
+    {
+        question: "Who eats the most M&Ms during the office olympics?",
+        answer: "Kevin Malone",
+        image: "assets/images/kevin.jpg"
     }
 ];
 
@@ -70,9 +90,10 @@ function submitAnswer() {
 function handleAnswer(isCorrect) {
     let q = questions[currentQuestion];
 
-    if (isCorrect)
+    if (isCorrect) {
         correctAnswers++;
-    else
+        hideAnswer();
+    } else
     {
         incorrectAnswers++;
         displayAnswer(q.answer);
@@ -118,8 +139,21 @@ function updateLeftQuestionsBar(answerQuestionCount) {
     document.getElementById("bar").style.width = width + "%";
 }
 
+function randomQuestions(){
+    for (var i = questions.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = questions[i];
+        questions[i] = questions[j];
+        questions[j] = temp;
+    }
+}
+
 function displayAnswer(answer){
     document.getElementById('answer').innerText = answer;
+}
+
+function hideAnswer(){
+    document.getElementById('answer').innerText = "";
 }
 
 function timerFunction() {
@@ -155,6 +189,10 @@ function resetQuiz(){
     updateLeftQuestionsBar(0);
     updateScoreText(0);
     startTimer(15);
+    hideAnswer();
+    randomQuestions();
+    displayQuestion(questions[currentQuestion]);
+    document.getElementById('a-image').innerHTML = "";
 }
 
 function tryAgainQuiz(){
@@ -176,6 +214,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 startTimer(15);
+randomQuestions();
 displayQuestion(questions[currentQuestion]);
 
 
