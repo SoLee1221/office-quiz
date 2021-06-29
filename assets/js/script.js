@@ -24,6 +24,26 @@ let questions = [
         question: "Who became second acting regional in Dunder Mifflin?",
         answer: "Dwight Schrute",
         image: "assets/images/dwigth.jpg"
+    },
+    {
+        question: "Who does Jim have a good close relationship with throughout the series?",
+        answer: "Pam Beesly",
+        image: "assets/images/pam.jpg"
+    },
+    {
+        question: "Who becomes the second to last Dunder Mifflin branch manager before the series ends?",
+        answer: "Andrew Bernard",
+        image: "assets/images/andrew.jpg"
+    },
+    {
+        question: "Who does Pam end up marrying?",
+        answer: "Jim Halpert",
+        image: "assets/images/jim.jpg"
+    },
+    {
+        question: "Who accidentally lets off a firearm in the office?",
+        answer: "Dwight Schrute",
+        image: "assets/images/dwigth.jpg"
     }
 ];
 
@@ -134,7 +154,7 @@ function resetQuiz(){
     incorrectAnswers = 0;
     updateLeftQuestionsBar(0);
     updateScoreText(0);
-    startTimer(5);
+    startTimer(15);
 }
 
 function tryAgainQuiz(){

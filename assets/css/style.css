@@ -70,6 +70,11 @@
   color: white;
 }
 
+#answer-box {
+  height: 30px;
+  width: 20%;
+}
+
 .answer-b {
   text-align: center;
   font-size: x-large;
@@ -113,6 +118,21 @@
   text-align: center;
 }
 
+.button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover{
+  background-color: blue;
+}
+
 #a-image {
   position: relative;
   text-align: center;
@@ -146,17 +166,43 @@
 }
 
 .results-box table td{
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 8px 15px;
   font-weight: bolder;
   color: rgb(197, 162, 6);
   width: 50%;
   text-align: left;
   font-size: 40px;
+  height: 120px;
 }
 
 .results-box .btn{
   margin-right: 50px;
 }
 
+.result-c {
+  color: brown;
+}
 
+.result-s{
+  color:green;
+}
+
+.result-i{
+  color: red;
+}
+
+.btn {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color:rgb(255, 51, 0)
+}
