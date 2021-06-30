@@ -58,5 +58,25 @@ var questions = [
         question: "Who eats the most M&Ms during the office olympics?",
         answer: "Kevin Malone",
         image: "assets/images/kevin.jpg"
+    },
+    {
+        question: "What is the security guards name that works downstairs soon as enter Dunder Mifflin building?",
+        answer: "Hank Doyle",
+        image: "assets/images/hank.jpg"
+    },
+    {
+        question: "Who does Andy get engaged to at first?",
+        answer: "Angela Kinsey",
+        image: "assets/images/angela.jpg"
+    },
+    {
+        question: "Who got a 3 month paid vacation from Dunder Mifflin because of Michael Scott's actions",
+        answer: "Oscar Martinez",
+        image: "assets/images/oscar.jpg"
+    },
+    {
+        question: "Who does Jim Halpert get married to and fall in love with",
+        answer: "Pam Beesly",
+        image: "assets/images/pam.jpg"
     }
 ];
