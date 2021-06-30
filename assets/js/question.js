@@ -70,13 +70,33 @@ var questions = [
         image: "assets/images/angela.jpg"
     },
     {
-        question: "Who got a 3 month paid vacation from Dunder Mifflin because of Michael Scott's actions",
+        question: "Who got a 3 month paid vacation from Dunder Mifflin because of Michael Scott's actions?",
         answer: "Oscar Martinez",
         image: "assets/images/oscar.jpg"
     },
     {
-        question: "Who does Jim Halpert get married to and fall in love with",
+        question: "Who does Jim Halpert get married to and fall in love with?",
         answer: "Pam Beesly",
         image: "assets/images/pam.jpg"
+    },
+    {
+        question: "Who gets jealous of Pam and Jim's relationship as soon as they are seen together and Pam kisses Jim on his cheek?",
+        answer: "Toby Fldenderon",
+        image: "assets/images/toby.jpg"
+    },
+    {
+        question: "Who is Michael Scott's boss towards the start of the series?",
+        answer: "Jan Livingston",
+        image: "assets/images/jan.jpg"
+    },
+    {
+        question: "Who has a drinking problem or drinks too much when there are Office parties?",
+        answer: "Meredith Palmer",
+        image: "assets/images/meredith.jpg"
+    },
+    {
+        question: "Who becomes Co-manager along side Michael Scott?",
+        answer: "Jim Halpert",
+        image: "assets/images/jim.jpg"
     }
 ];
