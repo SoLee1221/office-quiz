@@ -139,7 +139,7 @@ function tryAgainQuiz(){
 }
 
 function goToHome(){
-    document.location.href="/index.html";
+    document.location.href="index.html";
 }
 
 document.addEventListener("DOMContentLoaded", function(){

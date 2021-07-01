@@ -47,5 +47,18 @@ The features my Quiz has are rules to the homepage soon as users open the websit
 • Tested if questions show up correctly with the correct answer to give.  
 • Tested images to show up correctly with each question and on answer or incorrect answers.   
 • Tested Homepage image to display correctly.  
-•   
-• 
+• Tested if questions come in a random order even after completing the Quiz and pressing play again.  
+• Tested answers to not show when user is going through questions or pressing play again after quiz is done.  
+• Tested if results page show up correctly after completing the quiz.  
+• Tested if quiz is hidden when quiz ends and results page pops up.  
+• Tested when opening quiz page results page doesn't show along side it and is hidden until quiz is complete.  
+• Tested the data within the results show up correctly with accurate data.  
+• Tested if timer goes down correctly After each question and when quiz starts.  
+• Tested if timer gives user incorrect answer when timer reachs 0.  
+• Tested progress increases each time the timer goes to 0.  
+• Tested if you can input data into answer box.  
+• Tested if images and answers are hidden when pressing try again after completing the quiz.  
+
+## W3C validator
+
+
