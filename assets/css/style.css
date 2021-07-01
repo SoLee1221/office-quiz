@@ -37,6 +37,11 @@
   text-align: center;
 }
 
+h2 {
+  color: aquamarine;
+  text-align: center;
+}
+
 #hero-out {
   height: 600px;
   width: 100%;
