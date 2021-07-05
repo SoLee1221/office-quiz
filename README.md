@@ -89,12 +89,18 @@ https://solee1221.github.io/office-quiz
 ## Images
 
 images:  
-• <h5><a href=https://lrmonline.com/wp-content/uploads/2020/03/andy-bernard-e1529936277626.jpg>andy.jpg</h5> Go to google search and type in "Andrew Bernard" go to images and the image will show up.  
-• <h5><a href=https://i.insider.com/5bf322e948eb123560102de6?width=1000&format=jpeg&auto=webp>angela.jpg</h5> Go to google search and type in "Angela Martin" go to images and the image will show up.
-• 
-• 
-• 
-• 
+• Go to google search and type in "Andrew Bernard" go to images.      
+<h5><a href=https://lrmonline.com/wp-content/uploads/2020/03/andy-bernard-e1529936277626.jpg>andy.jpg</h5>     
+• Go to google search and type in "Angela Martin" go to images.       
+<h5><a href=https://i.insider.com/5bf322e948eb123560102de6?width=1000&format=jpeg&auto=webp>angela.jpg</h5>   
+• Go to google search and type in "Darryl Philbin" go to images.  
+<h5><a href=https://productplacementblog.com/wp-content/uploads/2019/06/HP-Monitor-Used-by-Craig-Robinson-Darryl-Philbin-in-The-Office-%E2%80%93-Season-7-1.jpg>dar.jpg</h5>  
+• Go to google search and type in "Dwight Schrute" go to images.  
+<h5><a href=https://www.looper.com/img/gallery/the-untold-truth-of-dwight-schrute/intro-1562620300.jpg>dwigth.jpg</h5>  
+• Go to google search and type in "Hank doyle" go to images.  
+<h5><a href=https://consequence.net/wp-content/uploads/2018/06/rip-hank-security-guard-the-office.png?w=1000&h=720&crop=1&resize=1280%2C720&quality=80&strip>hank.jpg</h5>  
+• Go to google search and type in "Office us" go to images.  
+<h5><a href=https://media.fromthegrapevine.com/assets/images/2018/4/the-office-u.S..jpg.824x0_q71_crop-scale.jpg>hero.jpg</h5>  
 • 
 • 
 • 
