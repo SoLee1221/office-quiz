@@ -35,13 +35,13 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 
 ## Features
 
-• My quiz has rules on the homepage to let users know and understand, how the the quiz works and what to do before the quiz begins.
-• My quiz has a timer feature to let users know how much time they can spend on each question. The timer resets each time they complete a question or timer goes to 0.
+• My quiz has rules on the homepage to let users know and understand, how the the quiz works and what to do before the quiz begins.  
+• My quiz has a timer feature to let users know how much time they can spend on each question. The timer resets each time they complete a question or timer goes to 0.  
 • My quiz also has a score tracker to let users know if they have answered a specific question right or wrong.  
 • Another feature is if the user answers a question incorrectly an image of the actor and name will pop up below the answer to let the user know what the correct answer was for that specific question. However if they get the answer correct only an image of the actor will pop up.  
 • There is also a progress bar to let users keep track of how far they are into the quiz either half way through or towards the end.  
 • There is a results page feature too, to keep track of users total score, incorrect, correct answers and total questions. This feature pops up only when the quiz is over.  
-• There is also a feature that randomises questions for users each time they take part in the quiz so that users can't catch on doing same answers for first few questions. Even after completing the quiz and hitting try again button will still randomise the questions to throw the user off. 
+• There is also a feature that randomises questions for users each time they take part in the quiz so that users can't catch on doing same answers for first few questions. Even after completing the quiz and hitting try again button will still randomise the questions to throw the user off.   
 • On the results page the user has 2 options either to go back to "homepage" or "try again" this will be only available once user completes the quiz to prevent cheating.   
 
 ## Testing
@@ -67,5 +67,11 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 • Tested if images and answers are hidden when pressing try again after completing the quiz.  
 
 ## W3C validator
+
+• Tested W3C HTML Validator warning section lacking heading with image for index.html, quiz.html zero errors.  
+• Tested W3C CSS Validator no errors found.  
+• Tested JSHint validator with no significant errors just few warnings regarding unused variables but thats because of buttons on the results page.
+
+
 
 
