@@ -35,13 +35,14 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 
 ## Features
 
-• The features my Quiz has are rules to the homepage soon as users open the website they will understand and see what they need to do before beginning the quiz. 
-• There is also a pre warning information telling the user when the Quiz start and what to press before the Quiz starts, so that they are not surpised when the Quiz suddently pops up when they click "play" to begin the Quiz. 
-• My Quiz has a timer to let the user know how much time they can spend on each question. 
-• If they answer it incorrectly an image of the actor will pop up and the name. However if they get the answer correct only an image will pop up with no characters name. 
-• They will additionally receive a point for getting answers correct or incorrect. 
-• There is also a progress bar to show the user if they are more than half way through the Quiz or towards the end of the Quiz. 
-• Once the user has completed the Quiz they will be directed to the result and see their results of incorrect answers, correct answers, total question and percentage. To really understand how well they did in the Quiz or not so good they did in the Quiz there is an option for users to try again however the questions will always come random so that users dont start to pick up patterns on the Quiz.
+• My quiz has rules on the homepage to let users know and understand, how the the quiz works and what to do before the quiz begins.
+• My quiz has a timer feature to let users know how much time they can spend on each question. The timer resets each time they complete a question or timer goes to 0.
+• My quiz also has a score tracker to let users know if they have answered a specific question right or wrong.  
+• Another feature is if the user answers a question incorrectly an image of the actor and name will pop up below the answer to let the user know what the correct answer was for that specific question. However if they get the answer correct only an image of the actor will pop up.  
+• There is also a progress bar to let users keep track of how far they are into the quiz either half way through or towards the end.  
+• There is a results page feature too, to keep track of users total score, incorrect, correct answers and total questions. This feature pops up only when the quiz is over.  
+• There is also a feature that randomises questions for users each time they take part in the quiz so that users can't catch on doing same answers for first few questions. Even after completing the quiz and hitting try again button will still randomise the questions to throw the user off. 
+• On the results page the user has 2 options either to go back to "homepage" or "try again" this will be only available once user completes the quiz to prevent cheating.   
 
 ## Testing
 
