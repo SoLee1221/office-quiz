@@ -35,7 +35,13 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 
 ## Features
 
-The features my Quiz has are rules to the homepage soon as users open the website they will understand and see what they need to do before beginning the quiz. There is also a pre warning information telling the user when the Quiz start and what to press before the Quiz starts, so that they are not surpised when the Quiz suddently pops up when they click "play" to begin the Quiz. My Quiz has a timer to let the user know how much time they can spend on each question, if they answer it incorrectly an image of the actor will pop up and the name. However if they get the answer correct only an image will pop up with no characters name. They will additionally receive a point for getting answers correct or incorrect. There is also a progress bar to show the user if they are more than half way through the Quiz or towards the end of the Quiz. Once the user has completed the Quiz they will be directed to the result and see their results of incorrect answers, correct answers, total question and percentage. To really understand how well they did in the Quiz or not so good they did in the Quiz there is an option for users to try again however the questions will always come random so that users dont start to pick up patterns on the Quiz.
+• The features my Quiz has are rules to the homepage soon as users open the website they will understand and see what they need to do before beginning the quiz. 
+• There is also a pre warning information telling the user when the Quiz start and what to press before the Quiz starts, so that they are not surpised when the Quiz suddently pops up when they click "play" to begin the Quiz. 
+• My Quiz has a timer to let the user know how much time they can spend on each question. 
+• If they answer it incorrectly an image of the actor will pop up and the name. However if they get the answer correct only an image will pop up with no characters name. 
+• They will additionally receive a point for getting answers correct or incorrect. 
+• There is also a progress bar to show the user if they are more than half way through the Quiz or towards the end of the Quiz. 
+• Once the user has completed the Quiz they will be directed to the result and see their results of incorrect answers, correct answers, total question and percentage. To really understand how well they did in the Quiz or not so good they did in the Quiz there is an option for users to try again however the questions will always come random so that users dont start to pick up patterns on the Quiz.
 
 ## Testing
 

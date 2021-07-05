@@ -81,6 +81,12 @@ h2 {
   color: white;
 }
 
+.para {
+  color: rgb(126, 185, 236);
+  text-align: center;
+  font-size: 1.2em;
+}
+
 #answer-box {
   height: 30px;
   width: 20%;
