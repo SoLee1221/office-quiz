@@ -104,13 +104,25 @@ images:
 • Go to google search and type in "Jan Levinson" go to images.  
 <h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/11/THE-OFFICE-Jan.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5>jan.jpg</a></h5>  
 • Go to google search and type in "Jim Halpert" go to images.  
-<h5><a href=https://img.buzzfeed.com/buzzfeed-static/static/2017-08/9/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-22381-1502291405-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto></a></h5>  
-• 
-• 
-• 
-• 
-• 
-• 
+<h5><a href=https://img.buzzfeed.com/buzzfeed-static/static/2017-08/9/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-22381-1502291405-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto>jim.jpg</a></h5>  
+• Go to google search and type in "Katy Moore" go to images.  
+<h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/The-Office-Hot-Girl-Season-1-Finale.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5>katy.jpg</a></h5>  
+• Go to google search and type in "Kelly office" go to images.  
+<h5><a href=https://upload.wikimedia.org/wikipedia/en/6/69/Kelly_Kapoor.jpg>kelly.jpg</a></h5>  
+• Go to google search and type in "kevin office" go to images.  
+<h5><a href=https://i0.wp.com/devsari.com/wp-content/uploads/2020/08/Brian-Baumgartner-as-Kevin-Malone-in-The-Office-Dwight-stands-up-for-Kevin.jpg?fit=740%2C370&ssl=1>kevin.jpg</a></h5>  
+• Go to google search and type in "Meredith the office" go to images.  
+<h5><a href=https://www.looper.com/img/gallery/the-deleted-scene-that-solves-this-meredith-mystery-from-the-office-season-5/intro-1616250882.jpg>meredith.jpg</a></h5>  
+• Go to google search and type in "Michael Scott" go to images.  
+<h5><a href=https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png>michael.jpg</a></h5>  
+• Go to google search and type in "Oscar Martinez" go to images.  
+<h5><a href=https://pbs.twimg.com/profile_images/956263585251905536/HI07Q-EL_400x400.jpg>oscar.jpg</a></h5>  
+• Go to google search and type in "Pam Halpert" go to images.  
+<h5><a href=https://pbs.twimg.com/profile_images/1029279458526547969/zBI6sGcD_400x400.jpg>pam.jpg</a></h5>  
+• Go to google search and type in "Toby Flenderson" go to images.  
+<h5><a href=https://i.pinimg.com/originals/bc/ee/01/bcee01e5f09c2a66113edacade661e68.jpg>toby.jpg</a></h5>
+
+
 
 
 
