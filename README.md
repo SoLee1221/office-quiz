@@ -72,6 +72,44 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 • Tested W3C CSS Validator no errors found.  
 • Tested JSHint validator with no significant errors just few warnings regarding unused variables but thats because of buttons on the results page.
 
+## Deployment
+
+Deployment:  
+Github pages  
+• Click the following link below  
+https://solee1221.github.io/office-quiz  
+• Once you opened the following link.  
+• On your repository, go to "settings" and click on "settings".  
+• Select "pages" should be on the left side menu once you have clicked on "settings".  
+• Choose the master branch from the source drop-down.  
+• Then choose root for the folder from the other drop-down beside it on the right.  
+
+## Credits
+
+## Images
+
+images:  
+• <h5><a href=https://lrmonline.com/wp-content/uploads/2020/03/andy-bernard-e1529936277626.jpg>andy.jpg</h5> Go to google search and type in "Andrew Bernard" go to images and the image will show up.  
+• <h5><a href=https://i.insider.com/5bf322e948eb123560102de6?width=1000&format=jpeg&auto=webp>angela.jpg</h5> Go to google search and type in "Angela Martin" go to images and the image will show up.
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+
+
+
+
+
+
+
 
 
 
