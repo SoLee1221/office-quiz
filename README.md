@@ -14,7 +14,6 @@ Testing your knowledge and how much you know about Office US.
 [W3C validator](#w3c-validator)  
 [Deployment](#deployment)
 [Images](#images)  
-[Credits](#credits)  
 
 ## Description 
 
@@ -70,7 +69,7 @@ https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 
 • Tested W3C HTML Validator warning section lacking heading with image for index.html, quiz.html zero errors.  
 • Tested W3C CSS Validator no errors found.  
-• Tested JSHint validator with no significant errors just few warnings regarding unused variables but thats because of buttons on the results page.
+• Tested JSHint validator with no significant errors just few warnings regarding unused variables but thats because of buttons on the results page, also unused variable but thats because i have made a seperate js file for questions to not over flow a single js file.
 
 ## Deployment
 
@@ -83,8 +82,6 @@ https://solee1221.github.io/office-quiz
 • Select "pages" should be on the left side menu once you have clicked on "settings".  
 • Choose the master branch from the source drop-down.  
 • Then choose root for the folder from the other drop-down beside it on the right.  
-
-## Credits
 
 ## Images
 
