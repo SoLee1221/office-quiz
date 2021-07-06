@@ -87,6 +87,12 @@ h2 {
   font-size: 1.2em;
 }
 
+.list {
+  color: rgb(247, 216, 177);
+  font-size: 1.2em;
+  text-align: center;
+}
+
 #answer-box {
   height: 30px;
   width: 20%;
