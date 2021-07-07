@@ -94,6 +94,12 @@ h2 {
   list-style: none;
 } 
 
+.para2 {
+  color: rgb(231, 156, 63);
+  font-size: 1.5em;
+  text-align: center;
+}
+
 #answer-box {
   height: 30px;
   width: 20%;

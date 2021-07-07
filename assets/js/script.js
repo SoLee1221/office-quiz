@@ -24,6 +24,10 @@ function submitAnswer() {
     document.getElementById('answer-box').value = "";
 }
 
+function answerCorrect() {
+
+}
+
 function handleAnswer(isCorrect) {
     let q = questions[currentQuestion];
 
@@ -90,7 +94,7 @@ function displayAnswer(answer){
 }
 
 function hideAnswer(){
-    document.getElementById('answer').innerText = "";
+    document.getElementById('answer').innerText = "Correct!";
 }
 
 function timerFunction() {
