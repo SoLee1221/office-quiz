@@ -91,7 +91,8 @@ h2 {
   color: rgb(247, 216, 177);
   font-size: 1.2em;
   text-align: center;
-}
+  list-style: none;
+} 
 
 #answer-box {
   height: 30px;
@@ -109,6 +110,7 @@ h2 {
 
 #answer {
   text-align: center;
+  font-size: 2em;
   color: rgba(216, 158, 0, 0.849);
 }
 
@@ -162,8 +164,8 @@ h2 {
 }
 
 #a-image img {
-  height: 400px;
-  width: 30%;
+  height: 300px;
+  width: 20%;
 }
 
 #btn {

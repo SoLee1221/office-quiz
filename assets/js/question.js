@@ -42,7 +42,7 @@ var questions = [
     {
         question: "Who becomes minority executive from the training programme that was offered?",
         answer: "Kelly Kapoor",
-        image: "assets/images/kelly.jpg"
+        image: "assets/images/kellyk.jpg"
     },
     {
         question: "Who was the manager of the warehouse?",

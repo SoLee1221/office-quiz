@@ -1,14 +1,14 @@
-<h1><a href=https://solee1221.github.io/office-quiz>Office US Quiz</h1>
+<h1><a href=https://solee1221.github.io/office-quiz>Office US Quiz</a></h1>
 https://solee1221.github.io/office-quiz/
 
 Testing your knowledge and how much you know about Office US.
 
-### table content
+### table of contents
 
 [Description](#description)    
 [Target-audience](#target-audience)    
 [How this quiz helps](#how-this-quiz-helps)   
-[Wireframe](#wireframe)       
+[Design](#design)       
 [Features](#features)   
 [Testing](#testing)
 [W3C validator](#w3c-validator)  
@@ -27,9 +27,9 @@ The Quiz is for younger and older adults, it helps the true fans and people that
 
 This Quiz helps people that either are really attached to the series or just want to test their knowledge about the Office US. This Quiz keeps track of users correct and incorrect answers, which will help them know what parts of the Office they know more about and less about. The end result of the Quiz will determine weather they have good knowledge about the series or not. They also have the option to try again so users can learn from their mistakes and hopefully get a higher score.
 
-## Wireframes 
+## Design 
 
-I have designed my Quiz code through drawing diagrams with information and adding functions. My ideas and thoughts changed overtime while working through the project.
+I have designed my Quiz code through drawing diagrams with information and adding functions. My ideas and thoughts changed overtime while working through the project. I inserted different background colours to test which would look more appealing and better depending on the main image. I did draw down on a piece of paper my Wireframes which is in the following link below. However most of my ideas from my wireframes have changed overtime especially coming to the mulitple choice questions. 
 https://github.com/SoLee1221/office-quiz/tree/master/diagram-of-project
 
 ## Features
@@ -77,7 +77,8 @@ Deployment:
 Github pages  
 • Click the following link below  
 https://solee1221.github.io/office-quiz  
-• Once you opened the following link.  
+• Copy the link to your own repository.
+• Once you opened the following link in your own repository.  
 • On your repository, go to "settings" and click on "settings".  
 • Select "pages" should be on the left side menu once you have clicked on "settings".  
 • Choose the master branch from the source drop-down.  
@@ -85,39 +86,23 @@ https://solee1221.github.io/office-quiz
 
 ## Images
 
-images:   
-• Go to google search and type in "Andrew Bernard" go to images.          
-<h5><a href=https://lrmonline.com/wp-content/uploads/2020/03/andy-bernard-e1529936277626.jpg>andy.jpg</a></h5>     
-• Go to google search and type in "Angela Martin" go to images.       
-<h5><a href=https://i.insider.com/5bf322e948eb123560102de6?width=1000&format=jpeg&auto=webp>angela.jpg</a></h5>   
-• Go to google search and type in "Darryl Philbin" go to images.  
-<h5><a href=https://productplacementblog.com/wp-content/uploads/2019/06/HP-Monitor-Used-by-Craig-Robinson-Darryl-Philbin-in-The-Office-%E2%80%93-Season-7-1.jpg>dar.jpg</a></h5>  
-• Go to google search and type in "Dwight Schrute" go to images.  
-<h5><a href=https://www.looper.com/img/gallery/the-untold-truth-of-dwight-schrute/intro-1562620300.jpg>dwigth.jpg</a></h5>  
-• Go to google search and type in "Hank doyle" go to images.  
-<h5><a href=https://consequence.net/wp-content/uploads/2018/06/rip-hank-security-guard-the-office.png?w=1000&h=720&crop=1&resize=1280%2C720&quality=80&strip>hank.jpg</a></h5>  
-• Go to google search and type in "Office us" go to images.  
-<h5><a href=https://media.fromthegrapevine.com/assets/images/2018/4/the-office-u.S..jpg.824x0_q71_crop-scale.jpg>hero.jpg</a></h5>  
-• Go to google search and type in "Jan Levinson" go to images.  
-<h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/11/THE-OFFICE-Jan.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5>jan.jpg</a></h5>  
-• Go to google search and type in "Jim Halpert" go to images.  
-<h5><a href=https://img.buzzfeed.com/buzzfeed-static/static/2017-08/9/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-22381-1502291405-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto>jim.jpg</a></h5>  
-• Go to google search and type in "Katy Moore" go to images.  
-<h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/The-Office-Hot-Girl-Season-1-Finale.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5>katy.jpg</a></h5>  
-• Go to google search and type in "Kelly office" go to images.  
-<h5><a href=https://upload.wikimedia.org/wikipedia/en/6/69/Kelly_Kapoor.jpg>kelly.jpg</a></h5>  
-• Go to google search and type in "kevin office" go to images.  
-<h5><a href=https://i0.wp.com/devsari.com/wp-content/uploads/2020/08/Brian-Baumgartner-as-Kevin-Malone-in-The-Office-Dwight-stands-up-for-Kevin.jpg?fit=740%2C370&ssl=1>kevin.jpg</a></h5>  
-• Go to google search and type in "Meredith the office" go to images.  
-<h5><a href=https://www.looper.com/img/gallery/the-deleted-scene-that-solves-this-meredith-mystery-from-the-office-season-5/intro-1616250882.jpg>meredith.jpg</a></h5>  
-• Go to google search and type in "Michael Scott" go to images.  
-<h5><a href=https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png>michael.jpg</a></h5>  
-• Go to google search and type in "Oscar Martinez" go to images.  
-<h5><a href=https://pbs.twimg.com/profile_images/956263585251905536/HI07Q-EL_400x400.jpg>oscar.jpg</a></h5>  
-• Go to google search and type in "Pam Halpert" go to images.  
-<h5><a href=https://pbs.twimg.com/profile_images/1029279458526547969/zBI6sGcD_400x400.jpg>pam.jpg</a></h5>  
-• Go to google search and type in "Toby Flenderson" go to images.  
-<h5><a href=https://i.pinimg.com/originals/bc/ee/01/bcee01e5f09c2a66113edacade661e68.jpg>toby.jpg</a></h5>
+For all the images i have google searched each characters name and went to google images for their images.
+• <h5><a href=https://lrmonline.com/wp-content/uploads/2020/03/andy-bernard-e1529936277626.jpg>andy.jpg</a></h5>       
+• <h5><a href=https://i.insider.com/5bf322e948eb123560102de6?width=1000&format=jpeg&auto=webp>angela.jpg</a></h5>  
+• <h5><a href=https://productplacementblog.com/wp-content/uploads/2019/06/HP-Monitor-Used-by-Craig-Robinson-Darryl-Philbin-in-The-Office-%E2%80%93-Season-7-1.jpg>dar.jpg</a></h5>  
+• <h5><a href=https://www.looper.com/img/gallery/the-untold-truth-of-dwight-schrute/intro-1562620300.jpg>dwigth.jpg</a></h5>  
+• <h5><a href=https://consequence.net/wp-content/uploads/2018/06/rip-hank-security-guard-the-office.png?w=1000&h=720&crop=1&resize=1280%2C720&quality=80&strip>hank.jpg</a></h5>  
+• <h5><a href=https://media.fromthegrapevine.com/assets/images/2018/4/the-office-u.S..jpg.824x0_q71_crop-scale.jpg>hero.jpg</a></h5>  
+• <h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/11/THE-OFFICE-Jan.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5>jan.jpg</a></h5>  
+• <h5><a href=https://img.buzzfeed.com/buzzfeed-static/static/2017-08/9/11/asset/buzzfeed-prod-fastlane-01/sub-buzz-22381-1502291405-3.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto>jim.jpg</a></h5>  
+• <h5><a href=https://static0.srcdn.com/wordpress/wp-content/uploads/2019/06/The-Office-Hot-Girl-Season-1-Finale.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5>katy.jpg</a></h5>  
+• <h5><a href=https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/entertainment/Screen-Shot-2019-12-17-at-124022-PM-5182f6de576537d9a9a68f3a6b80ead9.jpg>kellyk.jpg</a></h5>  
+• <h5><a href=https://i0.wp.com/devsari.com/wp-content/uploads/2020/08/Brian-Baumgartner-as-Kevin-Malone-in-The-Office-Dwight-stands-up-for-Kevin.jpg?fit=740%2C370&ssl=1>kevin.jpg</a></h5>  
+• <h5><a href=https://www.looper.com/img/gallery/the-deleted-scene-that-solves-this-meredith-mystery-from-the-office-season-5/intro-1616250882.jpg>meredith.jpg</a></h5>  
+• <h5><a href=https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png>michael.jpg</a></h5>  
+• <h5><a href=https://pbs.twimg.com/profile_images/956263585251905536/HI07Q-EL_400x400.jpg>oscar.jpg</a></h5>  
+• <h5><a href=https://pbs.twimg.com/profile_images/1029279458526547969/zBI6sGcD_400x400.jpg>pam.jpg</a></h5>  
+• <h5><a href=https://i.pinimg.com/originals/bc/ee/01/bcee01e5f09c2a66113edacade661e68.jpg>toby.jpg</a></h5>
 
 
 
