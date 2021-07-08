@@ -1,7 +1,7 @@
 <h1><a href=https://solee1221.github.io/office-quiz>Office US Quiz</a></h1>
 https://solee1221.github.io/office-quiz/
 
-<img src="./images/image-of-website.jpg">
+<img src="../images/image-of-website.jpg">
 
 Testing your knowledge and how much you know about Office US.
 
