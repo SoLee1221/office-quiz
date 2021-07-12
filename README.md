@@ -86,6 +86,8 @@ https://solee1221.github.io/office-quiz
 • Choose the master branch from the source drop-down.  
 • Then choose root for the folder from the other drop-down beside it on the right.  
 • You can fork my repository by clicking the fork button which is in the upper right hand corner of my repository page.  
+• Once you have fork my repository, the forked repository is copied onto to your Github account.  
+
 
 ## Images
 

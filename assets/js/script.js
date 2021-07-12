@@ -90,10 +90,14 @@ function randomQuestions(){
 }
 
 function displayAnswer(answer){
+    document.getElementById("answer").style["margin-top"] = "20px";
+    document.getElementById("answer").style["margin-bottom"] = "20px";
     document.getElementById('answer').innerText = "Your answer to the previous question was incorrect it was: " + answer;
 }
 
 function hideAnswer(){
+    document.getElementById("answer").style["margin-top"] = "20px";
+    document.getElementById("answer").style["margin-bottom"] = "20px";
     document.getElementById('answer').innerText = "Your Answer to the previous question was correct!";
 }
 
