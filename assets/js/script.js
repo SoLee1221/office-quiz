@@ -90,11 +90,11 @@ function randomQuestions(){
 }
 
 function displayAnswer(answer){
-    document.getElementById('answer').innerText = answer;
+    document.getElementById('answer').innerText = "Your answer to the previous question was incorrect it was: " + answer;
 }
 
 function hideAnswer(){
-    document.getElementById('answer').innerText = "Correct!";
+    document.getElementById('answer').innerText = "Your Answer to the previous question was correct!";
 }
 
 function timerFunction() {
@@ -134,6 +134,8 @@ function resetQuiz(){
     randomQuestions();
     displayQuestion(questions[currentQuestion]);
     document.getElementById('a-image').innerHTML = "";
+    answer = 0;
+    document.getElementById('answer').innerText = "";
 }
 
 function tryAgainQuiz(){
